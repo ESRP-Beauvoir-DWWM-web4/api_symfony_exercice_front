@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    margin-bottom: 2em;
+}
+
+.ins {
+    color: rgb(123, 123, 231);
+}
+
+.url {
+    color: rgb(255, 161, 21);
+}

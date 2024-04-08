@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<div>
+    <div class="title">
+        <h1>UTILISATEURS</h1>
+        <h3 class="ins">S'inscrire : <span class="url">/api/register</span></h3>
+        <h3 class="ins">Se connecter : <span class="url">/api/login_check</span></h3>
+        <h3 class="ins">Liste des utilisateurs : <span class="url">/api/users</span></h3>
+        <h3 class="ins">Consulter un utilisateur : <span class="url">/api/user/show/{id}</span></h3>
+        <h3 class="ins">Mettre à jour un utilisateur : <span class="url">/api/user/update/{id}</span></h3>
+        <h3 class="ins">Supprimer un utilisateur : <span class="url">/api/user/delete/{id}</span></h3>
+    </div>
+    <div class="title">
+        <h1>ARTICLES</h1>
+        <h3 class="ins">Nouvel article : <span class="url">/api/article/new</span></h3>
+        <h3 class="ins">Liste des articles : <span class="url">/api/articles</span></h3>
+        <h3 class="ins">Consulter un article : <span class="url">/api/article/show/{id}</span></h3>
+        <h3 class="ins">Mettre à jour un article : <span class="url">/api/article/update/{id}</span></h3>
+        <h3 class="ins">Supprimer un article : <span class="url">/api/article/delete/{id}</span></h3>
+    </div>
+</div>
+{% endblock %}
