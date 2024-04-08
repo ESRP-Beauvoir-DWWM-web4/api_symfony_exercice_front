@@ -3,7 +3,7 @@
 Vous avez accès à une api toute prête que vous devez adapter à un front en React
 
 Je vous demande de : 
-
+- Installer les clées privées et publique et d'afficher ce qu'il faut dans le fichier.env.local
 -  Faire un système de connexion avec les services associés et la récupération du token
 - Un système d'inscription
 
